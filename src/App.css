@@ -1,0 +1,52 @@
+/* Przykładowe style globalne */
+body {
+  margin: 12%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: gray;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  justify-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Dodatkowe style */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  border: #45a049;
+  border-style:solid;
+  border-radius: 10%;
+  background-color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #4CAF50;
+}
